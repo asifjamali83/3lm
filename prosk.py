@@ -25,41 +25,9 @@ print("""
 cl = LINE("")
 print("""\033["""+str(randint(0,1))+""";"""+str(randint(31,36))+"""m[ %s Selfbot Login ]\033[0m"""%(Bot_startTime))
 
-k1 = LINE("")
-print("""\033["""+str(randint(0,1))+""";"""+str(randint(31,36))+"""m[ %s Asist1 Login ]\033[0m"""%(Bot_startTime))
 
-k2 = LINE("")
-print("""\033["""+str(randint(0,1))+""";"""+str(randint(31,36))+"""m[ %s Asist2 Login ]\033[0m"""%(Bot_startTime))
-
-k3 = LINE("")
-print("""\033["""+str(randint(0,1))+""";"""+str(randint(31,36))+"""m[ %s Asist3 Login ]\033[0m"""%(Bot_startTime))
-
-k4 = LINE("")
-print("""\033["""+str(randint(0,1))+""";"""+str(randint(31,36))+"""m[ %s Asist4 Login ]\033[0m"""%(Bot_startTime))
-
-k5 = LINE("")
-print("""\033["""+str(randint(0,1))+""";"""+str(randint(31,36))+"""m[ %s Asist5 Login ]\033[0m"""%(Bot_startTime))
-
-k6 = LINE("")
-print("""\033["""+str(randint(0,1))+""";"""+str(randint(31,36))+"""m[ %s Asist6 Login ]\033[0m"""%(Bot_startTime))
-
-k7 = LINE("")
-print("""\033["""+str(randint(0,1))+""";"""+str(randint(31,36))+"""m[ %s Asist7 Login ]\033[0m"""%(Bot_startTime))
-
-k8 = LINE("")
-print("""\033["""+str(randint(0,1))+""";"""+str(randint(31,36))+"""m[ %s Asist8 Login ]\033[0m"""%(Bot_startTime))
-
-k9 = LINE("")
-print("""\033["""+str(randint(0,1))+""";"""+str(randint(31,36))+"""m[ %s Asist9 Login ]\033[0m"""%(Bot_startTime))
-
-k10 = LINE("")
-print("""\033["""+str(randint(0,1))+""";"""+str(randint(31,36))+"""m[ %s Asist10 Login ]\033[0m"""%(Bot_startTime))
-
-g1 = LINE("")
-print("""\033["""+str(randint(0,1))+""";"""+str(randint(31,36))+"""m[ %s Kicker1 Login ]\033[0m"""%(Bot_startTime))
-
-g2 = LINE("")
-print("""\033["""+str(randint(0,1))+""";"""+str(randint(31,36))+"""m[ %s Kicker2 Login ]\033[0m"""%(Bot_startTime))
+#g2 = LINE("")
+#print("""\033["""+str(randint(0,1))+""";"""+str(randint(31,36))+"""m[ %s Kicker2 Login ]\033[0m"""%(Bot_startTime))
 #==========================[[PAKE TOKEN CHROMEOS 2.1.5]]=========================
 print("""\033["""+str(randint(0,1))+""";"""+str(randint(31,36))+"""m
 
@@ -70,30 +38,19 @@ Login Time %s \033[0m\n\n"""%(Bot_startTime))
 #==============================================================================
 oepoll = OEPoll(cl)
 call = cl
-creator = ["ub1c5a71f27b863896e9d44bea857d35b","ufdc20b3a00b5e8f31e4f91017eb361b0"]
-owner = ["ub1c5a71f27b863896e9d44bea857d35b","ufdc20b3a00b5e8f31e4f91017eb361b0"]
-admin = ["ub1c5a71f27b863896e9d44bea857d35b","ufdc20b3a00b5e8f31e4f91017eb361b0"]
-staff = ["ufdc20b3a00b5e8f31e4f91017eb361b0"]
+creator = ["u3554bd11266103c9d61e9bbecfee52a5"]
+owner = ["u3554bd11266103c9d61e9bbecfee52a5"]
+admin = ["u3554bd11266103c9d61e9bbecfee52a5"]
+staff = ["u3554bd11266103c9d61e9bbecfee52a5"]
 #==============================================================================
 lineProfile = cl.getProfile()
 mid = cl.getProfile().mid
 mid = cl.getProfile().mid
-Amid = k1.getProfile().mid
-Bmid = k2.getProfile().mid
-Cmid = k3.getProfile().mid
-Dmid = k4.getProfile().mid
-Emid = k5.getProfile().mid
-Fmid = k6.getProfile().mid
-Gmid = k7.getProfile().mid
-Hmid = k8.getProfile().mid
-Imid = k9.getProfile().mid
-Jmid = k10.getProfile().mid   
-g1MID = g1.getProfile().mid
-g2MID = g2.getProfile().mid                 
-KAC = [k1,k2,k3,k4,k5,k6,k7,k8,k9,k10]
-ABC = [k1,k2,k3,k4,k5,k6,k7,k8,k9,k10]
-KICKER = [g1,g2]           
-Bots = [mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Jmid,g1MID,g2MID]
+                 
+#KAC = [k1,k2,k3,k4,k5,k6,k7,k8,k9,k10]
+#ABC = [k1,k2,k3,k4,k5,k6,k7,k8,k9,k10]
+#KICKER = [g1,g2]           
+Bots = [mid]
 Saint = admin + owner + staff
 Team = creator + owner + admin + staff + Bots
 Setbot = codecs.open("setting.json","r","utf-8")
@@ -135,17 +92,7 @@ simisimi = []
 tagmeOpen = codecs.open("tag.json","r","utf-8")
 tagme = json.load(tagmeOpen)
 #===============================================================================
-responsename1 = k1.getProfile().displayName
-responsename2 = k2.getProfile().displayName
-responsename3 = k3.getProfile().displayName
-responsename4 = k4.getProfile().displayName
-responsename5 = k5.getProfile().displayName
-responsename6 = k6.getProfile().displayName
-responsename7 = k7.getProfile().displayName
-responsename8 = k8.getProfile().displayName
-responsename9 = k9.getProfile().displayName
-responsename10 = k10.getProfile().displayName
-#===============================================================================
+#===========================================================
 settings = {
     "autoBlock": False,
     "autoRead": False,
@@ -202,7 +149,7 @@ settings = {
 }
 
 wait = {
-    "limit": 100,
+    "limit": 10,
     "owner":{},
     "admin":{},
     "addadmin":False,
@@ -267,11 +214,11 @@ wait = {
             "pictureStatus": "",
             "statusMessage": ""
             },
-    "mention":"Masuk say ngitip bacok",
-    "Respontag":"Cuy ngrtag mele..",
+    "mention":"Do u need Help",
+    "Respontag":"yeah..",
     "welcome":"Wellcome to my Fams",
-    "comment":"ᴀᴜᴛᴏʟɪᴋᴇ ʙʏ: \n\n\n\n™S̶̭̗̞̙̿͑̽̆̃̒į̷̙̝̦̤̜̗́̉ͅl̸̛͓͋͋͆̍ę̶͇̮̦̣̖̙̘̪̉n̸͍̦͉̖̟͚̗̣̍̓̽̅̚ť̴̙͋ ̷̨̳̠͎̮̘͇̀̅̀͒̈́͊̕͝T̸̡̯̗̩̺͉̑́͛̌̒ͅé̶̡̱̯̮̯̊̏́̀̃͜a̴̭͓̫͚̐́̂̍̂̊̋̚m̸̨̨̹͎͍̳̥͆̓͗̿͐͗͑̿̓͠ ̴̠͐̂B̷̛̳͎̫̻̫̯̣͓̲͋̀͋̋͊̈͗͑o̵̲̾̈́͒͗t̴̢͍̫̰̠̞͖͍̬̑̊̽͒́̈́͗ͅ\n\n\n\nᴄʀᴇᴀᴛᴏʀ:\nhttp://line.me/ti/p/~teambotprotect\nɢɪᴛhᴜʙ:\ngithub.com/dhenza1415\nchanel ʏᴏᴜᴛᴜʙᴇ:\nhttps://youtu.be/CRqXKcTl6IY\n\nnew ᴄʜᴀɴᴇʟ:\nhttps://youtu.be/6UGH_4gG9qk",
-    "message":"ᴄɪᴇᴇ ᴋᴇᴛᴀʜᴜᴀɴ ɴɢᴇ ᴀᴅᴅ\nᴍᴀᴋᴀsɪʜ ʏᴀ sᴜᴅᴀʜ ᴀᴅᴅ..\n\n\n\n\n™S̶̭̗̞̙̿͑̽̆̃̒į̷̙̝̦̤̜̗́̉ͅl̸̛͓͋͋͆̍ę̶͇̮̦̣̖̙̘̪̉n̸͍̦͉̖̟͚̗̣̍̓̽̅̚ť̴̙͋ ̷̨̳̠͎̮̘͇̀̅̀͒̈́͊̕͝T̸̡̯̗̩̺͉̑́͛̌̒ͅé̶̡̱̯̮̯̊̏́̀̃͜a̴̭͓̫͚̐́̂̍̂̊̋̚m̸̨̨̹͎͍̳̥͆̓͗̿͐͗͑̿̓͠ ̴̠͐̂B̷̛̳͎̫̻̫̯̣͓̲͋̀͋̋͊̈͗͑o̵̲̾̈́͒͗t̴̢͍̫̰̠̞͖͍̬̑̊̽͒́̈́͗ͅ\n\n\n\nᴄʀᴇᴀᴛᴏʀ:\nhttp://line.me/ti/p/~teambotprotect\nɢɪᴛhᴜʙ:\ngithub.com/dhenza1415\nchanel ʏᴏᴜᴛᴜʙᴇ:\nhttps://youtu.be/CRqXKcTl6IY\n\nnew ᴄʜᴀɴᴇʟ:\nhttps://youtu.be/6UGH_4gG9qk",
+    "comment":"Lover is here", #ᴀᴜᴛᴏʟɪᴋᴇ ʙʏ: \n\n\n\n™S̶̭̗̞̙̿͑̽̆̃̒į̷̙̝̦̤̜̗́̉ͅl̸̛͓͋͋͆̍ę̶͇̮̦̣̖̙̘̪̉n̸͍̦͉̖̟͚̗̣̍̓̽̅̚ť̴̙͋ ̷̨̳̠͎̮̘͇̀̅̀͒̈́͊̕͝T̸̡̯̗̩̺͉̑́͛̌̒ͅé̶̡̱̯̮̯̊̏́̀̃͜a̴̭͓̫͚̐́̂̍̂̊̋̚m̸̨̨̹͎͍̳̥͆̓͗̿͐͗͑̿̓͠ ̴̠͐̂B̷̛̳͎̫̻̫̯̣͓̲͋̀͋̋͊̈͗͑o̵̲̾̈́͒͗t̴̢͍̫̰̠̞͖͍̬̑̊̽͒́̈́͗ͅ\n\n\n\nᴄʀᴇᴀᴛᴏʀ:\nhttp://line.me/ti/p/~teambotprotect\nɢɪᴛhᴜʙ:\ngithub.com/dhenza1415\nchanel ʏᴏᴜᴛᴜʙᴇ:\nhttps://youtu.be/CRqXKcTl6IY\n\nnew ᴄʜᴀɴᴇʟ:\nhttps://youtu.be/6UGH_4gG9qk",
+    "message":"Thanks 4 Add me", #ᴄɪᴇᴇ ᴋᴇᴛᴀʜᴜᴀɴ ɴɢᴇ ᴀᴅᴅ\nᴍᴀᴋᴀsɪʜ ʏᴀ sᴜᴅᴀʜ ᴀᴅᴅ..\n\n\n\n\n™S̶̭̗̞̙̿͑̽̆̃̒į̷̙̝̦̤̜̗́̉ͅl̸̛͓͋͋͆̍ę̶͇̮̦̣̖̙̘̪̉n̸͍̦͉̖̟͚̗̣̍̓̽̅̚ť̴̙͋ ̷̨̳̠͎̮̘͇̀̅̀͒̈́͊̕͝T̸̡̯̗̩̺͉̑́͛̌̒ͅé̶̡̱̯̮̯̊̏́̀̃͜a̴̭͓̫͚̐́̂̍̂̊̋̚m̸̨̨̹͎͍̳̥͆̓͗̿͐͗͑̿̓͠ ̴̠͐̂B̷̛̳͎̫̻̫̯̣͓̲͋̀͋̋͊̈͗͑o̵̲̾̈́͒͗t̴̢͍̫̰̠̞͖͍̬̑̊̽͒́̈́͗ͅ\n\n\n\nᴄʀᴇᴀᴛᴏʀ:\nhttp://line.me/ti/p/~teambotprotect\nɢɪᴛhᴜʙ:\ngithub.com/dhenza1415\nchanel ʏᴏᴜᴛᴜʙᴇ:\nhttps://youtu.be/CRqXKcTl6IY\n\nnew ᴄʜᴀɴᴇʟ:\nhttps://youtu.be/6UGH_4gG9qk",
 }
 read = {
     "readPoint":{},
@@ -3956,8 +3903,87 @@ def bot(op):
                         for target in targets:
                             try:
                                 cl.findAndAddContactsByMid(target)                                
-                                cl.createGroup("TES BOT PUBLIK",[target]) 
-                                cl.createGroup("TES BOT PUBLIK",[target])            
+                                cl.createGroup("Mar Jao",[target]) 
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
+                                cl.createGroup("Mar Jao",[target])
                                 cl.sendMessage(msg.to, "Spam Invite ke " + korban + "\nSUCCESS..")
                                 settings['SpamInvite'] = False
                             except:             
