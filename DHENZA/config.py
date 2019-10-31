@@ -18,6 +18,7 @@ class Config(object):
     LINE_CHAN_QUERY_PATH        = '/CH4'
     LINE_SQUARE_QUERY_PATH      = '/SQS1'
     LINE_SHOP_QUERY_PATH        = '/SHOP4'
+    LINE_LIFF_QUERY_PATH        = '/LIFF1'
 
     CHANNEL_ID = {
         'LINE_TIMELINE': '1341209850',
@@ -28,10 +29,25 @@ class Config(object):
         'LINE_SERVICES': '1459630796'
     }
 
-    APP_TYPE    = ApplicationType._VALUES_TO_NAMES[368]
-    APP_VER     = '2.1.5'
+    APP_VERSION = {
+        'ANDROID': '8.14.2',
+        'IOS': '8.14.2',
+        'ANDROIDLITE': '2.1.0',
+        'BIZANDROID': '1.7.2',
+        'BIZIOS': '1.7.5',
+        'BIZWEB': '1.0.22',
+        'DESKTOPWIN': '5.9.0',
+        'DESKTOPMAC': '5.9.0',
+        'IOSIPAD': '8.14.2',
+        'CHROMEOS': '2.1.5',
+        'WIN10': '5.5.5',
+        'DEFAULT': '8.11.0'
+    }
+
+    APP_TYPE    = 'CHROMEOS'
+    APP_VER     = APP_VERSION[APP_TYPE] if APP_TYPE in APP_VERSION else APP_VERSION['DEFAULT']
     CARRIER     = '51089, 1-0'
-    SYSTEM_NAME = 'SHAH-ZAIN'
+    SYSTEM_NAME = 'Shahzain'
     SYSTEM_VER  = '11.2.5'
     IP_ADDR     = '1.1.1.1'
     EMAIL_REGEX = re.compile(r"[^@]+@[^@]+\.[^@]+")
